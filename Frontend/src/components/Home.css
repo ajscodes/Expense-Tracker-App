@@ -1,0 +1,79 @@
+.card:hover{
+    scale: 1.05;
+    transition: 0.3s;
+}
+.card{
+    transition: 0.3s;
+} 
+
+#head{
+    background-image: url("https://media.istockphoto.com/id/1351571961/photo/looking-directly-up-at-the-skyline-of-the-financial-district-in-central-london.jpg?s=2048x2048&w=is&k=20&c=K30R_JYrpws6zR61zM8aUtIxmK-7gLW-n6u5fHMAPS0=");
+    aspect-ratio: 10/2;
+}
+
+.effect span{
+    opacity: 0;
+    display: inline-block;
+    animation: reveal 0.5s ease forwards;
+}
+
+@keyframes reveal {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply delay to each letter */
+  .effect span:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .effect span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .effect span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .effect span:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  
+  .effect span:nth-child(5) {
+    animation-delay: 0.8s;
+  }
+  
+  .effect span:nth-child(6) {
+    animation-delay: 1s;
+  }
+  
+  .effect span:nth-child(7) {
+    animation-delay: 1.2s;
+  }
+
+.ExpText{
+  animation: blink 0.8s infinite;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-clip: text;
+  color: transparent;
+}
+
+.AddExpText{
+  animation: blink 0.8s infinite;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-clip: text;
+  color: transparent;
+}
+
+
+@keyframes blink {
+  0%, 100% {
+    background-image : linear-gradient(270deg,blue,red);
+  }
+  50% {
+    background-image : linear-gradient(270deg,red,blue);
+  }
+}
