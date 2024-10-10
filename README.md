@@ -13,7 +13,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/Priyanshu9898/Expense-Tracker-App
+  git clone https://github.com/ajscodes/Expense-Tracker-App
 ```
 
 Go to the project directory
@@ -25,7 +25,7 @@ Go to the project directory
 Go to the frontend directory and Install dependencies
 
 ```bash
-  cd frontend
+  cd Frontend
 ```
 ```bash
   npm install
@@ -34,7 +34,7 @@ Go to the frontend directory and Install dependencies
 Go to the backend directory and Install dependencies
 
 ```bash
-  cd backend
+  cd Backend
 ```
 ```bash
   npm install
@@ -50,7 +50,7 @@ Start the frontend server
 Start the backend server
 
 ```bash
-  npm run dev
+  nodemon index.js
 ```
 
 ## Environment Variables
